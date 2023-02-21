@@ -27,5 +27,8 @@ public class DemoMain {
 		q.setStatus("Not working...");
 		q.her();
 		
+		
+		Patient o = cont.getBean(Patient.class);
+		o.info();
 	}
 }
